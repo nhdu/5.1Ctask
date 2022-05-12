@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">5.1C_Task</string>
+    <string name="news_1">Electric cars, solar panels and wind turbines - green technology relies on what can be a dirty industry. Why acting on climate change may require a massive increase in mining.</string>
+    <string name="news_1Title">Why acting on climate change may require one of the biggest increase in mining the world has ever seen.</string>
+    <string name="news_2">Four decades after Bon Scott was found dead in London, the enigmatic AC/DC star\'s closest friend and relatives have spoken of his greatest vulnerability.</string>
+    <string name="news_2Title">After spending months researching Bon Scott\'s life, here\'s the best explanation for why the AC/DC frontman died so young.</string>
+    <string name="news_3">Respected NSW District Court Judge Peter Zahra dies suddenly after suffering a stroke, just days after overseeing the start of the trial of Guy Sebastian\'s ex-manager.</string>
+    <string name="news_3Title">Judge in fraud trial of Guy Sebastian\'s former manager dies suddenly.</string>
+    <string name="news_4">The toddler who was left on a children centre bus for six hours in central Queensland last week has been discharged from hospital.</string>
+    <string name="news_4Title">Nevaeh Austin discharged from hospital after being left on childcare bus.</string>
+    <string name="news_5">Foreigners in Bali find themselves in hot water with Hindus over offensive social media posts, including a man who attempted on a Maori Haka on a holy mountain while naked.</string>
+    <string name="news_5Title">Russians to be deported from Bali for obscene Instagram content.</string>
+    <string name="news_6">Canadian Prime Minister Justin Trudeau becomes the latest Western leader to show in-person support for Ukraine, as criticism of Moscow mounts over the reported targeting of civilians sheltering in a school.</string>
+    <string name="news_6Title">Zelenskyy says 60 civilians killed in Russian strike on school as Bono, Jill Biden, Justin Trudeau visit Ukraine.</string>
+    <string name="news_7">The British actor whose career spanned six decades - including starring roles on The Sweeney, Minder and New Tricks - dies peacefully in hospital, aged 74.</string>
+    <string name="news_7Title">Dennis Waterman - star of The Sweeney, Minder and New Tricks - dies, aged 74.</string>
+    <string name="news_8">The median rental price for a house across Australia\'s capital cities hit a new record high in the first three months of this year. But it\'s not just Australia\'s bearing the brunt of soaring rental costs.</string>
+    <string name="news_8Title">What $500 a week rent can get you in Australian capital cities - and across the world.</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

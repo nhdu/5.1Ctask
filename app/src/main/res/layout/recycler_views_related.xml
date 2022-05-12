@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/news1_Image"
+        android:layout_width="160dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/news1TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/climate_change" />
+
+    <TextView
+        android:id="@+id/news1TextView"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:scrollIndicators="start"
+        android:scrollbarSize="10dp"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintBottom_toTopOf="@+id/news3_Image"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/news2_Image"
+        android:layout_width="160dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/news2TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/news1_Image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bon_scott_death" />
+
+    <TextView
+        android:id="@+id/news2TextView"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:scrollbarSize="10dp"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/news1TextView"
+        app:layout_constraintTop_toBottomOf="@+id/news2_Image" />
+
+    <ImageView
+        android:id="@+id/news3_Image"
+        android:layout_width="160dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/news1TextView"
+        app:srcCompat="@drawable/dennis_death" />
+
+    <ImageView
+        android:id="@+id/news4_Image"
+        android:layout_width="160dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/news3_Image"
+        app:layout_constraintTop_toBottomOf="@+id/news2TextView"
+        app:srcCompat="@drawable/russian_deported" />
+
+    <TextView
+        android:id="@+id/news3TextView"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:scrollbarSize="10dp"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/news4TextView"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/news3_Image"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <TextView
+        android:id="@+id/news4TextView"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="4dp"
+        android:fadeScrollbars="true"
+        android:scrollbarSize="10dp"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintBaseline_toBaselineOf="@+id/news3TextView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
